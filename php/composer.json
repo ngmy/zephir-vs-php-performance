@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyPhp\\": "src/MyPhp/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MyPhp\\": "tests/MyPhp/"
+        }
+    }
+}
